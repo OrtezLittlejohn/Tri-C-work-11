@@ -1,1 +1,19 @@
-# Tri-C-work-11
+class Shark: 
+    #Createing the shark generate a shell for an object.
+    def __init__self(self, name):
+        self.name = name
+    #the constructor method initializes the data constructor.
+    def swim(self):
+            print(self.name +"is swimming")
+    # the purpose is to print the action of the shark is performing following its name.
+    def be_awesome(self):
+        Print(self.name + "is being awesome")
+     #the purpose of self.name is to bring a name of the shark listed later in the code an dinclude it as a text.
+    def main():
+     Ortez = Shark("Ortez")
+     #this line of code define ortez what Ortez is which is thhe name of the Shark.
+     ortez.swim()
+     ortez.be_awesome()
+     
+if__name__=="__main__"
+     main()
